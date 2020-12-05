@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './Styles.css'
 
 const Footer = () => {
     return (
-        <footer id=".main-footer ">
-            <div className="container ">
+        <footer id="main-footer">
+            <div className="container">
                 <div className="row ">
                     <div className="col-6 col-sm-7">
                      <nav>
