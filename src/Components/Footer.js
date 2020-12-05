@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="col-6 col-sm-7">
                      <nav>
                          <ul id="menu-footer-menu ">
-                             <li id="menu-item"> <a className="logo" href="#">DevApp Agency</a></li>
+                             <li id="menu-item"> <a className="logo" href="/">DevApp Agency</a></li>
                              <li id="menu-item">Services</li>
                              <li id="menu-item">About</li>
                              <li id="menu-item">Contact</li>
@@ -21,7 +21,7 @@ const Footer = () => {
                          <br />
                          With Us?
 
-                         <a className="button" href="#">Contact Us</a>
+                         <a className="button" href="/">Contact Us</a>
                         </h2>
 
                     </div>

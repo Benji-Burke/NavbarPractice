@@ -5,7 +5,7 @@ export class Navbar extends Component {
     render() {
         return (
             <nav className="nav">
-                <a className="logo">Anime Fund</a>
+                <a className="logo" href="/">Anime Fund</a>
                 <div className="nav-items">
                     <a href="/">Home</a>
                     <a href="/">About</a>
@@ -13,7 +13,7 @@ export class Navbar extends Component {
                 </div>
                 <div>
                     <input/>
-                    <a>login</a>
+                     <a href="/login">login</a>
                     <button>Create on Anime.Fund</button>
                 </div>
             </nav>
