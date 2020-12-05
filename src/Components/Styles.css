@@ -90,4 +90,10 @@ column-right {
     position: relative;
     bottom: 0;
     width: 100%;
+    text-decoration: none;
+ 
+  }
+
+  #menu-item{
+      list-style-type: none;
   }
