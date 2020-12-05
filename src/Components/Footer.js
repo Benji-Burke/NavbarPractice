@@ -6,6 +6,7 @@ const Footer = () => {
         <footer id="main-footer">
             <div className="container">
                 <div className="row ">
+                <hr />
                     <div className="col-6 col-sm-7">
                      <nav>
                          <ul id="menu-footer-menu ">
