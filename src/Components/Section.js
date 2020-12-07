@@ -3,6 +3,11 @@ import pic from '../anime.png';
 
 export class Section extends Component {
     render() {
+
+        const style ={
+            height: "50%",
+            width: "50%"
+        }
         return (
             <section>
                 <div className="column-left">
@@ -12,7 +17,7 @@ export class Section extends Component {
                 </div>
                 <div className="column-right">
 
-                    <img src={pic} alt="santa" className="hero-image" />
+                    <img src={pic} alt="santa" style={style} className="hero-image" />
                 </div>
 
             </section>
